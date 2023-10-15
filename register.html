@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Workfrom</title>
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!--custom CSS-->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section id="signIn">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+            <div class="container">
+                <a class="navbar-brand order-lg-0" href="index.html">
+                    <img src="img/logoWF.png" alt="site icon">
+                </a>
+
+                <input class="search-nav form-control order-lg-1" type="search" placeholder="Search by city or Space" aria-label="Search">
+
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse order-lg-2" id="navMenu">
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item px-2 py-2">
+                            <a href="#locations" class="nav-link text-dark">
+                                Locations
+                                <img src="img/chevron-down.jpg" alt=""></a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a href="#use-case" class="nav-link text-dark">
+                                Use Case
+                                <img src="img/chevron-down.jpg" alt=""></a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a href="#about-us" class="nav-link text-dark">About Us</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a href="#list-space" class="nav-link text-dark">List Space</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <button type="button" class="btn position-relative">
+                                <i class="fa fa-user-circle"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        <!-- Header -->
+        <header id="header-signIn"  style="padding-top: 100px;">
+            <div class="container mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-5 mx-auto" style="padding-bottom: 20px;">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6>Come on in</h6>
+                                <div class="row py-3">
+                                    <div class="col-sm-3 text-center">
+                                        <a href="signIn.html" class=" text-secondary ">SIGN IN</a>
+                                    </div>
+                                    <div class="col-sm-4 singIn-btn text-center">
+                                        <a href="register.html" class="text-secondary">I'M NEW HERE</a>
+                                    </div>
+                                </div>
+                                <form class="py-2">
+                                    <div class="form-group">
+                                        <label for="name">Name</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Enter name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email address</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password">Password</label>
+                                        <input type="password" class="form-control" id="password" placeholder="Password">
+                                    </div>
+                                    <div class="term-condition">
+                                        By registering, you agree to our <a href="" class="text-dark"><b>Terms & Conditions</b></a>, Privacy and Cookie Policy, and to join our loyalty programme
+                                        <div class="form-check">
+                                          <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            value=""
+                                            id="flexCheckChecked"
+                                          />
+                                          <label class="form-check-label text-secondary" for="flexCheckChecked"
+                                            >Sign up and never miss out on exclusive member rewards, tailored new arrivals and new launches. Unsubscribe at the bottom of our emails.</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group d-flex py-2">
+                                        <button class="btn btn-signIn btn-block">Register</button>
+                                    </div>
+                                    <h6 class="text-center">OR</h6>
+                                    <div class="form-group d-flex">
+                                        <button class="btn btn-block signIn-google">
+                                            <img src="img/fi_chrome.jpg" alt="">
+                                            Continue with Google</button>
+                                    </div>  
+                                    <div class="form-group d-flex">
+                                        <button class="btn btn-block signIn-facebook">
+                                            <img src="img/fi_facebook.jpg" alt="">
+                                            Continue with Facebook</button>
+                                    </div>                   
+                                </form>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+            
+            <!--Footer-->
+            <section id="footer">
+                <div class="container con-footer py-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-12 py-2 col-centered">
+                                <div class="row">
+                                    <img src="img/logoWF.png" alt="logoWF">
+                                </div>
+                                <div class="row py-2">
+                                    <p>Komp. Ruko Centre Point Medan Jalan Timor Blok G No. III/IV 2nd Floor, Gang Buntu, Medan Timur, Medan City, North Sumatra 20231
+                                    (+6261) 805 109 77</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12 py-2 col-centered">
+                                <h6>Locations</h6>
+                                <div class="row">
+                                    <a href="#" class="text-dark">Jakarta</a>
+                                </div>
+                                <div class="row">
+                                    <a href="#" class="text-dark">Medan</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12 py-2 col-centered" >
+                                <h6>Use Case</h6>
+                                <div class="row">
+                                    <a href="#" class="text-dark">Event</a>
+                                </div>
+                                <div class="row">
+                                    <a href="#" class="text-dark">Meeting</a>
+                                </div>
+                                <div class="row">
+                                    <a href="#" class="text-dark">Photo Shoot</a>
+                                </div>
+                                <div class="row">
+                                    <a href="#" class="text-dark">Office</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12 py-2 col-centered">
+                                <h6>Company</h6>
+                                <div class="row">
+                                    <a href="#" class="text-dark">Contact Us</a>
+                                    
+                                </div>
+                                <div class="row">
+                                    <a href="#" class="text-dark">About Us</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                    <hr size="2" width="100%" color="black">
+                    <div class="row justify-content-center">
+                        <p class="text-center">Workfrom @ 2023. All rights reserved.</p>
+                    </div>
+                </div>
+            </section>
+            
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </section>
+</body>
+</html>
